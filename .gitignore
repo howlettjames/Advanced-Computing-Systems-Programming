@@ -1,0 +1,6 @@
+Clases
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd

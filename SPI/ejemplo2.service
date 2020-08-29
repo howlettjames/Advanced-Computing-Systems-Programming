@@ -1,0 +1,18 @@
+[Unit]
+Description     = Ejemplo de overclock
+After		= syslog.target 
+
+[Service]
+#forking, describe el comportamiento tradicional de los
+#demonios en UNIX
+Type		= oneshot
+ExecStart	= /home/james/Documents/ESCOM_SEMESTRE_9/3CV7_ACSP/SPI/overclock_on.sh
+RemainAfterExit = true
+ExecStop	= /home/james/Documents/ESCOM_SEMESTRE_9/3CV7_ACSP/SPI/overclock_off.sh
+
+#Se usa /dev/null para sistemas en produccion para no 
+#llenar el disco en lugar de syslog
+StandardOutput	= journal
+
+[Install]
+WantedBy	= multi-user.target

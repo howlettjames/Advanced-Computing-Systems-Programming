@@ -1,0 +1,24 @@
+MCP4821/MCP4822 DAC
+Frecuencia Máxima: 20MHz
+Voltaje: 3.3V - 5V
+CPOL, CPHA: 00 o 11
+
+MAX144/MAX145 ADC
+Frecuencia Máx: 5MHz
+Voltaje: 2.7V - 5.25V
+CPOL-CPHA: 00
+
+25AA040A EEPROM
+10MHz
+1.8V - 5V
+00 o 11
+
+nRF24L01 Transceiver
+8MHz
+1.9V - 3.6V
+00
+
+MCP23008/MCP23S08
+10MHz
+2.7V - 5.5V
+
